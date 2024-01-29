@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.box_header {
+  width: 90%;
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+}
+.box_section {
+  width: 90%;
+  border: 1px solid blue;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.box_section ul {
+  list-style-type: none;
+  background: hotpink;
+  display: flex;
+  gap: 60px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .box_section ul {
+    background: green;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+.box_footer {
+  width: 90%;
+  border: 1px solid pink;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */
